@@ -1,5 +1,5 @@
 require 'faker'
-
+#sudo gem install faker
 f = File.new("names.txt","r")
 names = f.readlines
 f.close
